@@ -8,10 +8,10 @@ http.createServer(function (request, response) {
        response.writeHead(500).end();
     }
 
-    var filePath = '.' + request.url;
+    var filePath = './public/' + request.url;
 
-    if (filePath == './') {
-        filePath = './index.html';
+    if (filePath == './public/') {
+        filePath = './public/index.html';
     }
 
     fs.readFile(filePath, function(error, content) {
