@@ -10,7 +10,7 @@ http.createServer(function (request, response) {
 
     var filePath = './public/' + request.url;
 
-    if (filePath == './public/') {
+    if (filePath == './public/' || filePath == './public//') {
         filePath = './public/index.html';
     }
 
