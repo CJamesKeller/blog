@@ -5,7 +5,7 @@ var path = require('path');
 
 http.createServer(function (request, response) {
     if (request.url.includes('./')) {
-       response.writeHead(500).end();
+        response.writeHead(500).end();
     }
 
     var filePath = './public/' + request.url;
@@ -14,7 +14,7 @@ http.createServer(function (request, response) {
         filePath = './public/index.html';
     }
 
-    fs.readFile(filePath, function(error, content) {
+    fs.readFile(filePath, function (error, content) {
         if (error) {
             response.writeHead(500);
             response.end();
@@ -26,5 +26,5 @@ http.createServer(function (request, response) {
     });
 
 })
-    .listen(8080);
+    .listen(5000);
 

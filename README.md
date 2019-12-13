@@ -1,9 +1,7 @@
 
-# This is just going to be a static, text-only blog.
+# Personal blog of Christopher Keller
 
-Not even server-rendered javascript, because why would it be needed?
-
-We'll see if I actually use this one.
+Text only. Not even server-rendered JS, because why?
 
 ## Other stuff:
 
