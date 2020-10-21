@@ -8,8 +8,8 @@
 
 1 Philosophy / mo
   * [Philosophy Stuff](http://www.good-truth.com/)
-1 Family / mo
-1 Fiction /mo
+1 Personal / mo
+1 Fiction /mo (`remove?`)
 
 ## Colors
 
